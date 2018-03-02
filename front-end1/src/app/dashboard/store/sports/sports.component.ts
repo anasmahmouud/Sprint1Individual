@@ -19,10 +19,7 @@ export class SportsComponent implements OnInit {
             confirmDelete: true,
         },
         columns: {
-            _id: {
-                title: 'id',
-                show:false
-            },
+
             name: {
                 title: 'Product Name'
             },
